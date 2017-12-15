@@ -1,0 +1,16 @@
+.navbar-container {
+  margin-bottom: 50px;
+}
+
+.description-container {
+  height: 500px;
+}
+
+.carousel-container {
+  height: 500px;
+}
+
+.footer-container {
+  height: 100px;
+  background-color: grey;
+}
