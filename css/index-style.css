@@ -24,3 +24,11 @@
   width: 100%;
   background-color: grey;
 }
+
+.footer-details-container {
+  width: 40%;
+  float:left; /* add this */
+}
+
+.footer-geolocation-container {
+}
