@@ -5,8 +5,10 @@
 .description-container {
   border: 15px solid #FFFFFF;
   height: 500px;
-  color: white;
+  color: whitesmoke;
+  font-size: 20px;
   background-image: url("../images/marble-bg.jpg");
+  opacity: 0.7; 
 }
 
 .carousel-inner {
@@ -20,15 +22,33 @@
 }
 
 .footer-container {
-  height: auto;
-  width: 100%;
+  padding: 0px;
+  max-height: 220px;
+  max-width: 100%;
   background-color: grey;
 }
 
-.footer-details-container {
-  width: 40%;
-  float:left; /* add this */
+.footer-info {
+  float: left;
+  max-width: 50%;
+  padding: 10px;
+  margin: auto;
 }
 
-.footer-geolocation-container {
+a {
+  color: black;
+}
+
+#telephone, #email, #address {
+  padding: 5px;
+  margin: 12px;
+}
+
+.footer-gmap {
+  padding: 8px 2px;
+  float: right;
+  text-align: center;
+  max-width: 50%; 
+  max-height: 100%;
+  border-left: 1px solid black;
 }
